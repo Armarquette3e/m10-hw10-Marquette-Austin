@@ -40,7 +40,7 @@ a:hover {
 
 .header {
   background-color: var(--primary-color);
-  padding: 48px 0;
+  padding: 48px 50px;
   border-bottom: var(--secondary-color) 6px solid;
 }
 
@@ -59,24 +59,21 @@ a:hover {
 
 .header__nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__nav>a:not(:first-of-type) {
   margin-left: 24px;
 }
 
-.header__nav>.header__link {
+.header__link {
   font-size: 1.5rem;
   color: var(--off-white);
 }
 
-.article__paragraph>.article__link {
+.article__paragraph .article__link {
   color: var(--danger-color);
-}
-
-.header__nav>.logo {
-  margin-right: auto;
-  text-transform: uppercase;
 }
 
 .main>.hero,
